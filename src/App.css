@@ -1,0 +1,42 @@
+.navbar .container {
+    background: #ffffff24;
+        box-shadow: 0 0 25px 0 #ffffff24;
+}
+
+.connect-wallet {
+    background: none !important;
+    font-size: 20px !important;
+}
+
+.mint-button {
+    font-size: 20px !important;
+    color: white !important;
+    background-color: #f97316 !important;
+    border-color: #f97316;
+}
+
+.mint-button:hover {
+    background-color: #f9731666!important;
+}
+
+.connect-wallet:hover {
+    background: #ffffff24 !important;
+    color: none !important;
+    font-size: 20px !important;
+}
+
+.dark-banner {
+    width: 30%;
+    left: 4%;
+    top: 10%;
+}
+
+body {
+    background-image: url(./assets/images/bg.jpg);
+    background-size: cover;
+}
+
+div[data-testid="numeric-stepper"] {
+    margin: auto !important;
+}
+
