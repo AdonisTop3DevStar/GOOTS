@@ -1,48 +1,70 @@
-# React Demo
+# Getting Started with Create React App
 
-A repository to demonstrate a basic integration of 
-[Web3-Onboard](https://github.com/blocknative/web3-onboard) official docs for W3O can be found [here](https://onboard.blocknative.com/docs/modules/core#install).
-This project uses [React App Rewired](https://www.npmjs.com/package/react-app-rewired) for building, checkout `config-overrides.js` for details.
-For detailed documentation, head to [docs.blocknative.com](https://docs.blocknative.com)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-<div align="center">
-  <img style="border-radius: 8px" width="75%" src="assets/react-demo-updated.png">
-</div>
+In the project directory, you can run:
 
-View live demo [here](https://reactdemo.blocknative.com/)!
+### `npm start`
 
-## Getting started
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Clone the repo:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-```bash
-git clone https://github.com/blocknative/react-demo.git
-```
+### `npm test`
 
-Navigate to the project directory:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-```bash
-cd react-demo
-```
+### `npm run build`
 
-Install the dependencies:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```bash
-yarn
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Start the development server:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```bash
-yarn start
-```
+### `npm run eject`
 
-The project will be running on [localhost:3000](http://localhost:3000)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### SSL
-Some wallets require that the website within which it runs be using a https 
-connection. If you are testing one of these wallets, Ledger is one, then you have
-two options:
- 1. Setup a valid certificate for localhost using [this guide](https://www.freecodecamp.org/news/how-to-set-up-https-locally-with-create-react-app/).
- 2. Allow invalid certificates for resources loaded from localhost by navigating here within a chrome based browser: [chrome://flags/#allow-insecure-localhost](chrome://flags/#allow-insecure-localhost)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

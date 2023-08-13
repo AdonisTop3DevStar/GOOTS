@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(137deg, #03080E 0%, #392C19 45.44%, #000 100%);
+  }
+  
+  
+  @font-face {
+    font-family: normalFont;
+    src: url("./assets/fonts/RussoOne-Regular.ttf");
+  }
+  
+  
+  * {
+    font-family: normalFont !important;
+  }
+  
+  div[data-testid="numeric-stepper"] {
+    width: 40% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  
+  .App {
+    max-height: 100vh;
+  }
+
+  .account-center-with-notify {
+    display: none !important;
+  }
